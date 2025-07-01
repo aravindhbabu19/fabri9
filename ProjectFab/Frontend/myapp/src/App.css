@@ -1303,6 +1303,9 @@ color: #ffffff;
 }
 
 
-@media only screen and (width: 1286px){
-
+@media only screen and (width: 1285.60px){
+.aboutus-img{
+  margin-left: 40px;
+  margin-top: 180px;
+}
 }
