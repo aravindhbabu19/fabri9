@@ -57,7 +57,7 @@ const Home = () => {
        <div class='home-div1'>
         <div class='row'>
           <div class='col-12 col-sm-12 col-md-6 col-lg-6'>
-            <img src='./Images/Fab/weld10.jpeg' alt='' height={600} width={600} class='aboutus-img'/>
+            <img src='./Images/Fab/weld10.jpeg' alt='' height={600} width={550} class='aboutus-img pb-5'/>
           </div>
           <div class='col-12 col-sm-12 col-md-6 col-lg-6 home-about'>
             <div class='service-head3 mt-5'>
