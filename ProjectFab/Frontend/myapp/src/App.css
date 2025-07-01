@@ -1302,9 +1302,9 @@ color: #ffffff;
   }
 }
 
-@media only screen and (width: 1146px){
+@media only screen and (width: 1150px){
 .contact-form1{
-  margin-left: 6em;
+  margin-left: 200px;
 }
     }
 
