@@ -7,7 +7,9 @@ const Form=require('./Routes/Form')
 const Connectdb = require('./Config/Connectdb')
 const cors = require('cors');
 const PORT=process.env.PORT||3500
+const bodyParser = require('body-parser');
 
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(express.json());
 app.use(cors());
