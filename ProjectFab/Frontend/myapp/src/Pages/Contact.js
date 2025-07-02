@@ -20,12 +20,7 @@ const Contact = () => {
     axios.post('https://fabri9-1.onrender.com/api/v1/Fabrication',{name,email,phone,message})
     .then((result)=>{
         console.log(result)
-        var url="https://wa.me/"+number+"?text="
-        +"*Name :*"+name+"%0a"
-        +"*Email :"+email+"%0a"
-        +"*contact :"+contact+"%0a"
-        +"*message :"+message+"%0a%0a";
-        window.open(url, '_blank').focus()
+        toast.success("your Data Register Successfully")
     }
     
 )
