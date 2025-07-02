@@ -10,14 +10,14 @@ const Contact = () => {
 
   const [name,setName]=useState("")
   const [email,setEmail]=useState("")
-  const [contact,setContact]=useState("")
+  const [phone,setPhone]=useState("")
   const [message,setMessage]=useState("")
 
 
  const handleSubmit=(e)=>{
   const number="+919019500835"
     e.preventDefault()
-    axios.post('https://fabri9-1.onrender.com/api/v1/Fabrication',{name,email,contact,message})
+    axios.post('https://fabri9-1.onrender.com/api/v1/Fabrication',{name,email,phone,message})
     .then((result)=>{
         console.log(result)
         var url="https://wa.me/"+number+"?text="
@@ -53,7 +53,7 @@ const Contact = () => {
             <label class='form-label'>Name</label>
             <input type="text" required='true' name='nam' class='form-control' placeholder='Enter Your Name' size="50" value={name} onChange={(e)=>setName(e.target.value)} /><br></br>
             <label class='form-label'>Contact Number</label>
-            <input type="text" required='true' name='cont' class='form-control' placeholder='Enter Your Contact No' size="50" value={contact} onChange={(e)=>setContact(e.target.value)} /><br></br>
+            <input type="text" required='true' name='cont' class='form-control' placeholder='Enter Your Contact No' size="50" value={phone} onChange={(e)=>setPhone(e.target.value)} /><br></br>
             <label class='form-label'>Email I'd</label> 
             <input type="text" required='true' name='ema' class='form-control' placeholder='Enter Your Email' size="50" value={email} onChange={(e)=>setEmail(e.target.value)} /><br></br>
             <label class='form-label'></label>
