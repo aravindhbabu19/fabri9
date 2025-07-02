@@ -34,6 +34,11 @@ const Footer = () => {
            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4698641413697!2d77.4934306!3d12.941757899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f1bdb876e69%3A0xd333d81e7b499e2!2scourier%20service%20Trackon!5e0!3m2!1sen!2sin!4v1750745798539!5m2!1sen!2sin" class='service-map' title='add' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
+        <div class='row'>
+          <div class='col footer-2  mt-3'>
+          <p>Copyrights © 2025 Lakshmifabrication. All Rights Reserved</p>
+          </div>
+        </div>
     </div>
   )
 }
