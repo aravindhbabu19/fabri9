@@ -570,7 +570,7 @@ color: #ffffff;
   background-color:greenyellow;
   width: 150px;
   animation-name: moveleft;
-  animation-duration: 1.2s;
+  animation-duration: .5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
  }
