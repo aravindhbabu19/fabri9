@@ -29,7 +29,7 @@
   font-size: 45px;
   font-family: 'Times New Roman', Times, serif;
   animation-name: moveleft;
-  animation-duration: 1.2s;
+  animation-duration: .5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
