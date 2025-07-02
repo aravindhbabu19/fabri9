@@ -8,11 +8,14 @@ import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
 import Services from './Pages/Services';
 import Project from './Pages/Project';
+import {ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
     <div>
       <Router>
+      <ToastContainer theme='light' position='top-center' />
       <Navigation />
       <Routes>
       <Route path='/' element={<Home />} />
