@@ -1308,10 +1308,9 @@ color: #ffffff;
 @media only screen and (width: 1536px){
 .contact-form1{
   margin-left: 120px;
-  width: 700px;
 }
   .contact-map1{
-    margin-left: -120px;
+    margin-left: -140px;
     width: 700px;
     }
 }
