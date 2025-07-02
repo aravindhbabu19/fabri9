@@ -9,7 +9,7 @@ const Navigation = () => {
                 <Link class='text-decoration-none' to={'/'}>
                 <img src='./Images/Fab/logo1.jpeg' height={100} width={100} class='rounded ms-2'/>
                 </Link>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#ull">
+                <button type="button" class="navbar-toggler me-2" data-bs-toggle="collapse" data-bs-target="#ull">
                 <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="ull">
