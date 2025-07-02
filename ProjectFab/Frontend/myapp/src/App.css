@@ -78,8 +78,8 @@
   color: white;
   width: 800px;
   font-family: 'Times New Roman', Times, serif;
-  animation-name: moveleft;
-  animation-duration: .05s;
+ animation-name: moveleft;
+  animation-duration: .5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 }
@@ -408,7 +408,7 @@ color: #ffffff;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   animation-name: moveleft;
-  animation-duration: .05s;
+  animation-duration: .5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 
@@ -503,7 +503,7 @@ color: #ffffff;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   animation-name: moveleft;
-  animation-duration: .05s;
+  animation-duration: .5s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
 
