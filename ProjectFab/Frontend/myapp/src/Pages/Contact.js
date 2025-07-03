@@ -20,7 +20,7 @@ const Contact = () => {
     axios.post('https://fabri9-1.onrender.com/api/v1/Fabrication',{name,email,phone,message})
     .then((result)=>{
         console.log(result)
-        alert("Your info was successfully submitted. Our team will contact you shortly");
+        window.alert("Your info was successfully submitted. Our team will contact you shortly");
         //toast.success("Your info was successfully submitted. Our team will contact you shortly")
     }
     
