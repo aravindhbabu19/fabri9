@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <div>
-    <ToastContainer theme='light' position='top-center' />
+   
       <div class='contact-div'>
         <h1 class='contact-head11 ms-3 pt-5'> PRECISION <span class='service-span12'>MEETS</span> PERFORMANCE</h1>
          <Link class='text-decoration-none' to={'/Contact'}>
