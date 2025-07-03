@@ -2,7 +2,7 @@
 import './App.css';
 import {  Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import {ToastContainer} from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css';
+//import 'react-toastify/dist/ReactToastify.css';
 import Navigation from './Components/Navigation';
 import Home from './Pages/Home';
 import About from './Pages/About';
