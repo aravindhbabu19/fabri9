@@ -18,7 +18,7 @@ function App() {
       <Router>
      
       <Navigation />
-      <ToastContainer theme='light' position='top-center' />
+    
       <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/about' element={<About />} />
