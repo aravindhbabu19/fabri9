@@ -57,7 +57,7 @@ const Contact = () => {
         </form>
         </div>
         <div class=' col-12 col-sm-12 col-md-12 col-lg-6 mt-5 contact-map1'>
-           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4698641413697!2d77.4934306!3d12.941757899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f1bdb876e69%3A0xd333d81e7b499e2!2scourier%20service%20Trackon!5e0!3m2!1sen!2sin!4v1750745798539!5m2!1sen!2sin" class='contact-map rounded ms-1' height={580} width={550} title='add' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4698641413697!2d77.4934306!3d12.941757899999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3f1bdb876e69%3A0xd333d81e7b499e2!2scourier%20service%20Trackon!5e0!3m2!1sen!2sin!4v1750745798539!5m2!1sen!2sin" class='contact-map rounded ms-3' height={580} width={550} title='add' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
       </div>
