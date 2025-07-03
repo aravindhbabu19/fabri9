@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <Router>
-     
+      <ToastContainer theme='light' position='top-center' />
       <Navigation />
     
       <Routes>
